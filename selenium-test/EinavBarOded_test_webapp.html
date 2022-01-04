@@ -1,0 +1,164 @@
+{
+  "id": "f152a791-e0cb-492a-90e1-fcdc9d050428",
+  "version": "2.0",
+  "name": "EinavBarOded_test_webapp",
+  "url": "http://localhost:8081/EinavBarOded/",
+  "tests": [{
+    "id": "59440799-856a-45c6-a7b9-b699ed42c529",
+    "name": "test_2_Verify",
+    "commands": [{
+      "id": "05bb503b-8067-4c30-9132-656ebd8a9d0c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8081/EinavBarOded/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55fed784-b12c-4412-bc3f-4a3b1ba0f58a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e849c7c8-b705-4db4-aad3-d9a26f087df0",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca7619d-5089-45c3-852f-da59b04461b4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome')]", "xpath:innerText"]
+      ],
+      "value": "Welcome"
+    }, {
+      "id": "a8a3baff-83bb-42e6-bda9-7d106c1291d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='welcome.jsp']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a400a8b-7adc-4a7a-add7-6d1a81aa2732",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7799904-6547-4c3a-ae32-49e362d95442",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "einav"
+    }, {
+      "id": "e6097b88-d953-44bb-86bf-2672b25ab26d",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='welcome.jsp']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d87d556-b7d9-40d9-bc9f-83395b091a71",
+      "comment": "",
+      "command": "click",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30872961-378f-490f-ad6a-fc087300c67c",
+      "comment": "",
+      "command": "type",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "354e00b0-16b8-4665-a22a-8a94fec287a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b31acf-ad78-4300-a941-5f0eb3449a40",
+      "comment": "",
+      "command": "click",
+      "target": "css=pre:nth-child(2)",
+      "targets": [
+        ["css=pre:nth-child(2)", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf93a14-5559-4973-9230-63a8f57d344b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=pre:nth-child(2)",
+      "targets": [
+        ["css=pre:nth-child(2)", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": "1 * 1 = 1\\n1 * 2 = 2\\n1 * 3 = 3\\n1 * 4 = 4\\n1 * 5 = 5\\n1 * 6 = 6\\n1 * 7 = 7\\n1 * 8 = 8\\n1 * 9 = 9\\n1 * 10 = 10\\n\\n\\n© 2016 Preetham"
+    }, {
+      "id": "75c61a9c-73f0-4ad9-9866-6dda544c100f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c9d55424-6a56-4b74-87bc-5a4c30dd83e6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59440799-856a-45c6-a7b9-b699ed42c529"]
+  }],
+  "urls": ["http://localhost:8081/", "http://localhost:8081/EinavBarOded/"],
+  "plugins": []
+}

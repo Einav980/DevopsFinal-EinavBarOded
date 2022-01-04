@@ -1,0 +1,10 @@
+enter user "einav"
+enter number "2"
+click submit
+return 
+enter user "einav"
+enter number "lsd"
+click submit
+enter user "rkzsne"
+enter number "4"
+click submit
